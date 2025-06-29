@@ -1,13 +1,16 @@
-<div style="text-align:center">
-  <img src="./img/logo.png" width="10%" />
-</div>
 
-# 📌 Diab-Enose: Non-Invasive Blood Glucose Detection System Based on Bionic Olfaction
+
+
+<p align="center">
+  <img src="./img/logo.png" width="15%" />
+</p>
+
+# Diab-Enose: Non-Invasive Blood Glucose Detection System Based on Bionic Olfaction
 <p align="center">
   <img src="./img/background.png" alt="背景图" />
 </p>
 
-# 📌 Overview
+## 📌 Overview
 
 This project focuses on non-invasive blood glucose detection using electronic nose (Enose) technology. The system collects and analyzes gas data from users' breath through embedded devices and deep learning models, ultimately presenting the glucose level in a mobile app. 
 
@@ -19,7 +22,7 @@ The project consists of four subsystems:
 - **Enose Algorithm Model**: Please refer to the paper: [DynaTGNet](https://link.springer.com/chapter/10.1007/978-981-96-6954-7_32): Enhanced Transformer-Based Spatiotemporal Dynamic Graph Neural Network for Multivariate Time Series Classification.
 
 
-# 📂 Project Structure
+## 📂 Project Structure
 ```bash
 Enose-Project
 ├── web-detection # Web management frontend and backend
@@ -28,8 +31,8 @@ Enose-Project
 ├── ...
 ```
 
-# 📦 Module Introduction
-## 1️⃣ WebPlatform
+## 📦 Module Introduction
+### 1️⃣ WebPlatform
 - Frontend: `Reat + Ant Design + UmiJS + Axios`
 - Backend: `Go + Gin + GORM + MySQL`
 - Main features:
@@ -50,7 +53,7 @@ cd WebPlatform/backend
 go run main.go
 ```
 
-## 2️⃣ AlgorithmClient
+### 2️⃣ AlgorithmClient
 - Built with: `Electron + React + Fluent UI`
 - Supported algorithms: LightGBM, XGBoost, Random Forest, etc.
 - Main features:
@@ -65,7 +68,7 @@ yarn install
 yarn start
 ```
 
-## 3️⃣ SerialMonitor
+### 3️⃣ SerialMonitor
 - Tech stack: `Electron + React + Fluent UI + ECharts + SerialPort`
 - Main features:
   - Real-time series visualization of sensor data
@@ -79,7 +82,7 @@ yarn install
 yarn dev
 ```
 
-# 🔍 Demo
+## 🔍 Demo
 <table>
   <tr>
     <td><img src="./img/demo1_serial.png" style="width:100%"></td>
@@ -99,7 +102,7 @@ yarn dev
 </table>
 
 
-# ⚙️ Environment Requirements
+## ⚙️ Environment Requirements
 - Node.js >= 14
 - Go >= 1.17
 - MySQL >= 8.0
@@ -107,23 +110,9 @@ yarn dev
 - Operating System: Windows 10 or CentOS 8+
 
 
-# Development Team
+## 🧑‍🤝‍🧑 Development Team
 This project is jointly developed by an interdisciplinary team from the College of Software, College of Business, Clinical Medical College, and College of Bionics at Jilin University.
 
 
-# Awards
+## 🏆 Awards
 This project has received multiple awards, including the **National Third Prize** in the China University Service Outsourcing Innovation and Entrepreneurship Competition!
-
-# Demo Video
-<video controls width="100%">
-  <source src="./img/Diab-Enose_Video.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
-
-
-
-
-
-
-
