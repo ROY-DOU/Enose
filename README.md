@@ -33,7 +33,7 @@ Enose-Project
 
 ## 📦 Module Introduction
 ### 1️⃣ WebPlatform
-- Frontend: `Reat + Ant Design + UmiJS + Axios`
+- Frontend: `React + Ant Design + UmiJS + Axios`
 - Backend: `Go + Gin + GORM + MySQL`
 - Main features:
   - User registration and login
